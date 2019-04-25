@@ -1,6 +1,6 @@
 import mysql.connector
 
-__author__ = 'XXX'
+__author__ = 'Gerry'
 
 ##
 ## Concept:
@@ -12,10 +12,10 @@ class Assignment1:
     
     def __init__(self):
         ## Your gene of interest
-        self.gene = ""
+        self.gene = "PDXK"  
 
     
-    def download_gene_coordinates(self, genome_reference, file_name):
+    def download_gene_coordinates(self, genome_reference, file_name):   # HG38
         ## TODO concept
         
         print("Connecting to UCSC to fetch data")
