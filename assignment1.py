@@ -15,7 +15,7 @@ class Assignment1:
         self.gene = "PDXK"  
 
     
-    def download_gene_coordinates(self, genome_reference, file_name):   # HG38
+    def download_gene_coordinates(self, genome_reference, file_name):   # hg38
         ## TODO concept
         
         print("Connecting to UCSC to fetch data")
@@ -56,49 +56,51 @@ class Assignment1:
         
         print("Done fetching data")
         
-    def get_coordinates_of_gene(self):
+    def get_coordinates_of_gene(self):  # machbar
         ## Use UCSC file
         print("todo")
         
-    def get_gene_symbol(self):
+    def get_gene_symbol(self):  # HILFE: Was ist das?
         print("todo")
                         
-    def get_sam_header(self):
+    def get_sam_header(self):   # pysam
         print("todo")
         
-    def get_properly_paired_reads_of_gene(self):
+    def get_properly_paired_reads_of_gene(self):    #pysam
         print("todo")
         
-    def get_gene_reads_with_indels(self):
+    def get_gene_reads_with_indels(self):    ### ab hier nicht mehr
         print("todo")
         
-    def calculate_total_average_coverage(self):
+    def calculate_total_average_coverage(self):   # Bedtools
         print("todo")
         
-    def calculate_gene_average_coverage(self):
+    def calculate_gene_average_coverage(self):  # Bedtools
         print("todo")
         
-    def get_number_mapped_reads(self):
+    def get_number_mapped_reads(self):      
         print("todo")
 
     def get_region_of_gene(self):
         print("todo")
         
-    def get_number_of_exons(self):
+    def get_number_of_exons(self):          #
         print("ads")
     
     
     def print_summary(self):
+        
         print("Print all results here")
     
     
 def main():
     print("Assignment 1")
     assignment1 = Assignment1()
+    #assignment1.download_gene_coordinates('hg38', 'testfile1')
     assignment1.print_summary()
     
     
-    print("Done with assignment 1")
+    print("Done with assignment 1...")
     
         
 if __name__ == '__main__':
