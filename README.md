@@ -1,9 +1,19 @@
 # Medizinische Genomanalysen 2019 - Assignment 1
 
+## News
+* Deadline: 20.05.2019
+* Gene Symbol - just plug in the name of your gene
+* Region_of_gene - report the exons of your gene
+* Report the number of properly paired and indel reads
+
+
 ## Overview
 * Fork and clone the repository
 * Complete the python program, based on the template, to calculate various properties
-* Push to your repository
+* Complete all TODOs
+* **Hint**: Call the individual methods from *print_summary*
+* Commit (often)
+* Push to **your** repository
 * Look **below** for your gene
 * The following tools might be of help:
   * Biopython (http://biopython.org/)
@@ -19,6 +29,8 @@
 * All datasets [http://hmd.ait.ac.at/medgen2019/](http://hmd.ait.ac.at/medgen2019/)
 
 ## Individual genes
+
+**HINT** Use a different gene if you do not find reads in your gene
 
 | Student | Gene | 
 | ----- | --- |
