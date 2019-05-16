@@ -1,4 +1,7 @@
 import mysql.connector
+import os
+import pybedtools
+import pysam
 
 __author__ = 'Gerry'
 
@@ -38,7 +41,7 @@ class Assignment1:
                         "refGene.exonEnds"]
         
         ## Build query
-        query = "SELECT DISTINCT %s from refGene" % ",".join(query_fields)
+        query = "SELECT DISTINCT %s from refGene" % ",".join(query_fields) # WHERE!!! -> DICT!!
         
         ## Execute query
         cursor.execute(query)
